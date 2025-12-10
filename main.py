@@ -7,7 +7,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Временное хранилище задач (вместо базы данных)
+
 tasks_db = [
     {"id": 1, "title": "Изучить FastAPI", "completed": False},
     {"id": 2, "title": "Создать проект", "completed": True},
